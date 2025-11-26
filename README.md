@@ -5,7 +5,7 @@
 This project is a small, **paper-trading quant platform** running on a local k3s cluster.  
 It does **not** trade real money. What it actually does is the following:
 
-- Pulls live (or stubbed) market price and volume data
+- Pulls live market price and volume data
 - Computes simple features (price return + volume spike)
 - Runs one rule-based strategy that generates BUY/SELL signals
 - Simulates trades and tracks positions/PnL in Postgres
